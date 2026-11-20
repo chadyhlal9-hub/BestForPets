@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEST FOR PETS (aquatics) – Poissons, plantes et accessoires d’aquarium</title>
+  <meta name="description" content="Poissons d’aquarium, plantes aquatiques, décorations, accessoires, nourritures et traitements. Commandez en ligne chez BEST FOR PETS (aquatics).">
+  <link rel="icon" href="best-for-pets-aquatics-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <div class="announce" id="announce"></div>
+
+  <header class="header">
+    <div class="container header__in">
+      <a href="#accueil" class="brand">
+        <img src="best-for-pets-aquatics-logo.svg" alt="BEST FOR PETS (aquatics)">
+        <span><strong>BEST FOR PETS</strong><small>aquatics</small></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#produits">Produits</a>
+        <a href="#magasins">Nos magasins</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <button class="cart-btn" id="openCart" aria-label="Ouvrir le panier">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero__in">
+        <div class="hero__text">
+          <span class="pill">Poissons, plantes et accessoires d’aquarium</span>
+          <h1>Tout pour un aquarium <em>vivant et réussi</em></h1>
+          <p>Poissons, plantes aquatiques, décorations, accessoires, nourritures et traitements. Choisissez vos produits, ajoutez-les au panier et finalisez votre commande en quelques clics.</p>
+          <div class="hero__btns">
+            <a href="#produits" class="btn btn--primary">Voir les produits</a>
+            <a href="#magasins" class="btn btn--ghost">Nos magasins</a>
+          </div>
+          <div class="stats" id="stats"></div>
+        </div>
+        <div class="hero__art">
+          <div class="bubble"><img src="best-for-pets-aquatics-logo.svg" alt="Logo BEST FOR PETS aquatics"></div>
+          <div class="badge" id="heroBadge"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="benefits" aria-label="Nos services">
+      <div class="container benefits__grid">
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true">🐟</span>
+          <h2>Emballage sécurisé des poissons vivants</h2>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true">🚚</span>
+          <h2>Livraison partout en Tunisie dans les meilleurs délais</h2>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true">💵</span>
+          <h2>Paiement à la livraison</h2>
+          <p>Payez après réception de votre commande.</p>
+        </article>
+        <article class="benefit">
+          <span class="benefit__icon" aria-hidden="true">💬</span>
+          <h2>Conseils gratuits de spécialistes sur WhatsApp</h2>
+        </article>
+      </div>
+    </section>
+    
+    </section>
+    <section class="section" id="produits">
+      <div class="container">
+        <div class="section__head">
+          <h2>Nos produits</h2>
+          <p>Le catalogue est mis à jour automatiquement depuis notre liste de produits.</p>
+        </div>
+        <div class="toolbar">
+          <input type="search" id="search" placeholder="Rechercher un produit…" aria-label="Rechercher un produit">
+          <select id="sort" aria-label="Trier">
+            <option value="default">Trier : par défaut</option>
+            <option value="asc">Prix croissant</option>
+            <option value="desc">Prix décroissant</option>
+            <option value="az">Nom A–Z</option>
+          </select>
+        </div>
+        <div class="chips" id="chips"></div>
+        <div class="grid" id="grid"><p class="state">Chargement des produits…</p></div>
+      </div>
+    </section>
+
+    <section class="owner">
+      <div class="container owner__in">
+        <img src="hamdiii.jpg" alt="Hamdi, propriétaire de Best for Pets Aquatics">
+        <div class="owner__text">
+          <span class="pill">À propos</span>
+          <h2>Une passion au service de votre aquarium</h2>
+          <p>Hamdi vous accueille chez Best for Pets Aquatics et vous accompagne dans le choix de vos produits pour aquarium.</p>
+        </div>
+      </div>
+
+    <section class="section section--tint" id="magasins">
+      <div class="container">
+        <div class="section__head">
+          <h2>Nos Boutiques</h2>
+          <p>Venez nous voir et demandez conseil à notre équipe.</p>
+        </div>
+        <div class="stores" id="stores"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__in">
+      <div>
+        <div class="brand brand--light">
+          <img src="best-for-pets-aquatics-logo.svg" alt="">
+          <span><strong>BEST FOR PETS</strong><small>aquatics</small></span>
+        </div>
+        <p class="footer__txt">Poissons, plantes, sable, roches, aquariums, décorations et accessoires pour votre aquarium.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul class="links" id="contactLinks"></ul>
+      </div>
+      <div>
+        <h3>Suivez-nous</h3>
+        <ul class="links" id="socialLinks"></ul>
+      </div>
+    </div>
+    <div class="footer__bar">© <span id="year"></span> BEST FOR PETS (aquatics). Tous droits réservés.</div>
+  </footer>
+
+  <!-- Panier -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-label="Panier" aria-hidden="true">
+    <div class="drawer__head">
+      <h2>Mon panier</h2>
+      <button class="icon-btn" id="closeCart" aria-label="Fermer le panier">✕</button>
+    </div>
+    <div class="ship">
+      <p id="shipText"></p>
+      <div class="bar"><span id="shipBar"></span></div>
+    </div>
+    <div class="drawer__body" id="cartItems"></div>
+    <div class="drawer__foot">
+      <div class="row"><span>Sous-total</span><span id="subTotal">0,00 DT</span></div>
+      <div class="row"><span>Livraison</span><span id="shipCost">—</span></div>
+      <div class="row row--total"><span>Total</span><span id="grandTotal">0,00 DT</span></div>
+      <button class="btn btn--primary btn--full" id="checkoutBtn" disabled>Finaliser la commande</button>
+      <button class="link-btn" id="continueBtn">Continuer mes achats</button>
+    </div>
+  </aside>
+
+  <!-- Commande -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__box" role="dialog" aria-labelledby="modalTitle">
+      <button class="icon-btn modal__close" id="closeModal" aria-label="Fermer">✕</button>
+      <div id="orderView">
+        <h2 id="modalTitle">Finaliser la commande</h2>
+        <form id="orderForm" novalidate>
+          <label>Nom et prénom
+            <input type="text" name="nom" autocomplete="name" required>
+          </label>
+          <label>Numéro de téléphone
+            <input type="tel" name="tel" autocomplete="tel" inputmode="tel" placeholder="Ex : 20 123 456" required>
+          </label>
+          <label>Mode de réception
+            <select name="mode" id="mode">
+              <option value="livraison">Livraison à domicile</option>
+              <option value="retrait">Retrait en magasin</option>
+            </select>
+          </label>
+          <div id="deliveryFields">
+            <label>Ville
+              <input type="text" name="ville" autocomplete="address-level2">
+            </label>
+            <label>Adresse complète
+              <input type="text" name="adresse" autocomplete="street-address">
+            </label>
+          </div>
+          <label id="storeField" hidden>Magasin de retrait
+            <select name="magasin" id="storeSelect"></select>
+          </label>
+          <label>Remarque (facultatif)
+            <textarea name="note" rows="2"></textarea>
+          </label>
+          <p class="form-error" id="formError" role="alert"></p>
+          <div class="recap" id="recap"></div>
+          <button type="submit" class="btn btn--primary btn--full">Envoyer ma commande par WhatsApp</button>
+          <p class="hint">Votre commande s’ouvre dans WhatsApp avec tous les détails. Vous la confirmez en appuyant sur « Envoyer ».</p>
+        </form>
+      </div>
+      <div id="doneView" hidden>
+        <h2>Merci pour votre commande !</h2>
+        <p>Si WhatsApp ne s’est pas ouvert, vérifiez que le numéro de la boutique est bien renseigné, puis réessayez.</p>
+        <button class="btn btn--primary btn--full" id="doneBtn">Retour à la boutique</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="Config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
