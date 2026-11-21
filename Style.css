@@ -83,6 +83,15 @@ h1 em{font-style:normal;background:linear-gradient(90deg,#0a8fd6,#29c4e8);-webki
 .section__head{text-align:center;margin-bottom:2rem}
 .section__head h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--navy);font-weight:800}
 .section__head p{color:var(--muted)}
+.guide{background:#fff}
+.guide__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.guide__card{background:var(--sky);border:1px solid var(--line);border-radius:var(--r);padding:1.3rem}
+.guide__card span{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--grad);color:#fff;font-weight:800;margin-bottom:.8rem}
+.guide__card h3{color:var(--navy);font-size:1.05rem;line-height:1.35;margin-bottom:.5rem}
+.guide__card p,.guide__note{color:var(--muted);font-size:.92rem}
+.guide__note{text-align:center;margin-top:1.5rem}
+.guide__note a{color:var(--blue);font-weight:600}
+.guide__note a:hover{text-decoration:underline}
 .toolbar{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:1rem}
 .toolbar input,.toolbar select{padding:.8rem 1.1rem;border-radius:14px;border:1.5px solid var(--line);background:#fff}
 .toolbar input{flex:1;min-width:200px}
