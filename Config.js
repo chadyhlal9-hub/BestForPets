@@ -15,7 +15,7 @@ const CONFIG = {
 
   // Coordonnées (laissez "" ce que vous n’avez pas : ça s’affiche seulement si rempli)
   whatsapp: "21696319915",   // format international sans + ni espaces, ex : "21620123456"
-  telephone: "+216 27 737 442",  // ex : "+216 20 123 456"
+  telephone: "+216 96 319 915",  // ex : "+216 20 123 456"
   email: "BestForPets@gmail.com",      // ex : "contact@exemple.tn"
   facebook: "https://www.facebook.com/share/1DpQgL8NRM/",   // lien complet de la page
   tiktok: "https://www.tiktok.com/@riahi_hamdi?_r=1&_t=ZS-9BX4i3y3H1t",     // lien complet du compte
